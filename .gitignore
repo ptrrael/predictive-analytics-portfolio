@@ -1,0 +1,69 @@
+# ==========================================
+# JUPYTER NOTEBOOK & PYTHON CACHE
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# VIRTUAL ENVIRONMENTS
+# ==========================================
+venv/
+env/
+.venv/
+.env
+
+# ==========================================
+# DATASETS & FILE EKSTRAKSI (SPESIFIK PROYEK)
+# ==========================================
+# 1. Deteksi Penipuan Kartu Kredit (Kaggle: mlg-ulb/creditcardfraud)
+# File ini berukuran ~150MB, rentan melebihi limit GitHub (100MB)
+creditcard.csv
+
+# 2. Stock Forecasting (Yahoo Finance)
+# Mengabaikan file CSV jika kamu mengekspor data BBCA, BBRI, BMRI, BBNI ke lokal
+BBCA*.csv
+BBRI*.csv
+BMRI*.csv
+BBNI*.csv
+*stock_data*.csv
+
+# 3. Telecom Customer Churn (Kaggle: blastchar/telco-customer-churn)
+WA_Fn-UseC_-Telco-Customer-Churn.csv
+
+# ==========================================
+# FOLDER DATA & EKSTENSI FILE DATA UMUM
+# ==========================================
+data/
+datasets/
+raw_data/
+processed_data/
+*.csv
+*.xlsx
+*.parquet
+*.zip
+*.tar.gz
+
+# ==========================================
+# EXPORT MODEL (Machine Learning & Deep Learning)
+# ==========================================
+# Mengabaikan file bobot model Random Forest, XGBoost, dan LSTM
+models/
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pb
+
+# ==========================================
+# OS GENERATED FILES
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
